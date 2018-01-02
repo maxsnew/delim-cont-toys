@@ -1,6 +1,6 @@
 * Types for Delimited Continuations
 - CM.hs: an implementation of Danvy-Filinski's shift and reset as a
-  delimited continuation indexed monad.
+  delimited continuation indexed monad (based on Atkey's "Parameterised Notions of Computation").
 - df.rkt: a redex model of Danvy-Filisnki's shift and reset type
   system with answer type changing (broken I think).
 - callcc.rkt: a redex model of "delimited callcc", based on Racket's
